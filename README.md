@@ -301,21 +301,7 @@ Live scrolling window using Tkinter.
 
 ---
 
-# ⚠️ Security Notice
 
-This project is **purely educational**.
-All traffic is *simulated* — no real network interfaces are used.
-
-🥽 **Never use MITM techniques on real networks without legal permission.**
-
----
-
-# 📜 License
-
-Recommended license: **MIT License**
-(If you want, I can generate a `LICENSE` file for you.)
-
----
 
 
 
