@@ -1,2 +1,35 @@
-# Auto detect text files and perform LF normalization
-* text=auto
+# Normalize text files to LF for all OS
+* text=auto eol=lf
+
+# Python files — always treated as text
+*.py text
+
+# Markdown & documentation
+*.md text
+*.txt text
+
+# Treat log files as text
+*.log text
+
+# Ignore diff for generated or large files
+mitm_log.txt -diff
+
+# Binary files
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.gif binary
+*.zip binary
+*.exe binary
+
+# Improve diff for common file types
+*.py diff=python
+*.md diff=markdown
+
+# Replays or cached files (if added later)
+*.bin binary
+*.dat binary
+
+# Props for recognizing scripts
+*.sh text eol=lf
+*.bat text eol=crlf
