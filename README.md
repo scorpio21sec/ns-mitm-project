@@ -1,8 +1,3 @@
-Here is your **complete `README.md`** — formatted cleanly, fully structured, and **including a detailed explanation of every imported library and why it is used**.
-Just copy–paste this into your GitHub repo as *README.md*.
-
----
-
 # 🛰️ MITM Traffic Simulator
 
 ### **A safe, in-process Man-In-The-Middle (MITM) simulation using Python threads, queues, GUI monitoring & packet replay**
